@@ -27,4 +27,4 @@ Visit `phpinfo.php`：
 
 ## Vulnerability Analysis
 
-After adding comments to the code, the system will recognize the comment symbol /\*\*/ and ignore all the code within it during the checking process. This makes it easy to upload files without detection. However, please note that in some cases, such as during actual access, the /\*\*/ comment symbols may not work as expected and the code within can still be executed.
+After adding comments using the /\*\*/ symbol in PHP, any code within the comment block will not be checked and can be easily uploaded. However, during actual access, the /\*\*/ comment symbols may not work as expected and the code within can still be executed.
