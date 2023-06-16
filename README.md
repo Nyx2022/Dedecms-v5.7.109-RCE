@@ -21,7 +21,7 @@ phpinfo();
 ?>*
 ```
 
-Visit `test.php`：
+Visit `phpinfo.php`：
 
 ![Dedecms-v5.7.109-RCE-4.png](https://github.com/MentalityXt/Dedecms-v5.7.109-RCE/blob/main/Dedecms-v5.7.109-RCE-4.png)
 
